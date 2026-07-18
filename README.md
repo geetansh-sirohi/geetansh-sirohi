@@ -18,20 +18,24 @@
     </td>
     <td align="left" width="55%" style="vertical-align: top; padding-left: 20px;">
       <h3 align="left"><code>[ quick_facts.json ]</code> ✦</h3>
-      <ul>
-        <li><b>👤 Name:</b> Geetansh Sirohi</li>
-        <li><b>💼 Role:</b> Systems Architect &amp; Frontend Engineer</li>
-        <li><b>📍 Base:</b> Rustampur, Uttar Pradesh, India</li>
-        <li><b>🎯 Focus:</b> High-Performance Web Systems, XR/VR &amp; 3D Graphics</li>
-        <li><b>🚀 Core Stack:</b> React 19, Next.js 16, TypeScript, Tailwind CSS v4, Three.js, Cloudflare Workers</li>
-        <li><b>💬 Bio:</b> <i>"Coding is the ability to think — code is my canvas, the web is my playground."</i></li>
-      </ul>
+      
+```json
+{
+  "name": "Geetansh Sirohi",
+  "role": "Systems Architect & Frontend Engineer",
+  "base": "Rustampur, Uttar Pradesh, India",
+  "focus": "High-Performance Web Systems, XR/VR & 3D Graphics",
+  "core_stack": ["React 19", "Next.js 16", "TypeScript", "Tailwind v4", "Three.js", "Workers"],
+  "bio": "Coding is the ability to think — code is my canvas, the web is my playground."
+}
+```
+      
       <br/>
       <p align="left">
-        <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-geetanshsirohi.vercel.app-8B0000?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-        <a href="https://pibrains.com"><img src="https://img.shields.io/badge/Platform-pibrains.com-FF5900?style=flat-square&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
-        <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GitHub-geetansh--sirohi-FFC107?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-        <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-1E3A8A?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+        <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-18181B?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+        <a href="https://pibrains.com"><img src="https://img.shields.io/badge/PLATFORM-FF5900?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
+        <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GITHUB-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+        <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF6EA7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
       </p>
     </td>
   </tr>
@@ -107,6 +111,10 @@
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=geetansh-sirohi&bg_color=fdfbf7&color=18181b&line=ff5900&point=8b0000&area=true&area_color=fff3e0&hide_border=true&custom_title=Contribution%20Graph">
     <img alt="GitHub Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=geetansh-sirohi&bg_color=0a0a0a&color=f4f4f5&line=ff5900&point=ffc107&area=true&area_color=8b0000&hide_border=true&custom_title=Contribution%20Graph" width="98%">
   </picture>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/geetansh-sirohi/geetansh-sirohi/output/github-contribution-grid-snake.svg?v=7" alt="GitHub Contribution Snake" width="98%"/>
 </p>
 
 <br/>
