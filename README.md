@@ -1,13 +1,5 @@
 <div align="center">
 
-<!-- Top Navigation Pill Badges (Vintage Palette) -->
-<p align="center">
-  <a href="#about-me"><img src="https://img.shields.io/badge/--_HOME_---8B0000?style=for-the-badge&logoColor=white" alt="Home"/></a>
-  <a href="#about-me"><img src="https://img.shields.io/badge/--_ABOUT_---FF5900?style=for-the-badge&logoColor=white" alt="About"/></a>
-  <a href="#selected-work"><img src="https://img.shields.io/badge/--_WORK_---FFC107?style=for-the-badge&logoColor=white" alt="Work"/></a>
-  <a href="#tech-stack"><img src="https://img.shields.io/badge/--_SKILLS_---1E3A8A?style=for-the-badge&logoColor=white" alt="Skills"/></a>
-  <a href="#connect"><img src="https://img.shields.io/badge/--_CONTACT_---8B0000?style=for-the-badge&logoColor=white" alt="Contact"/></a>
-</p>
 
 <!-- Animated Doodle Notebook Banner with Light & Dark Theme Auto-Switch -->
 <picture>
