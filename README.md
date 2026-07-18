@@ -37,13 +37,154 @@
 <!-- Selected Work Table with Actual Repositories -->
 <h2 align="center"><code>[selected work &amp; repositories:]</code> ✷</h2>
 
-| Repository / Project | Description | Stack | Link |
-| :--- | :--- | :--- | :---: |
-| <b>DIGITAL-HUNTERS</b> | Full-Cycle Game Development, XR/VR Projects &amp; High-Performance Landing Page | `HTML` `CSS` `JavaScript` `XR` | [View Repo](https://github.com/geetansh-sirohi/DIGITAL-HUNTERS) |
-| <b>FinTrack-Pro</b> | Privacy-first personal finance dashboard featuring interactive charts &amp; CSV export | `HTML5` `CSS3` `JavaScript` | [View Repo](https://github.com/geetansh-sirohi/FinTrack-Pro) |
-| <b>Oliv-Building_Brands</b> | Modern bento-grid branding website with advanced responsive layout engineering | `HTML` `CSS` `Bento-Grid` | [View Repo](https://github.com/geetansh-sirohi/Oliv-Building_Brands) |
-| <b>loome-New-Collection</b> | Minimal and elegant fashion landing page with modern UI &amp; product showcase | `HTML` `CSS` `UI/UX` | [View Repo](https://github.com/geetansh-sirohi/loome-New-Collection) |
-| <b>Pi Brains Platform</b> | Enterprise Systems &amp; AI Architecture Platform | `Next.js 16` `TypeScript` `Cloudflare` | [pibrains.com](https://pibrains.com) |
+<table width="100%" style="border-collapse: collapse; border: none;">
+  <!-- Row 1: Pi Brains Platform & Productivity Dashboard -->
+  <tr>
+    <td width="50%" valign="top" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 16px; background-color: #0d1117;">
+      <br/>
+      <img src="https://img.shields.io/badge/01_/_FEATURED-FF5900?style=for-the-badge" alt="Top 1"/>
+      <br/><br/>
+      <h3>🧠 Pi Brains Platform</h3>
+      <p align="center" style="font-size: 14px; min-height: 48px;">Enterprise Systems &amp; AI Architecture Platform. Built for high performance and scale.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
+      </p>
+      <hr size="1" color="#8B0000"/>
+      <p align="center">
+        <a href="https://pibrains.com">
+          <img src="https://img.shields.io/badge/Live_Site-8B0000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Site"/>
+        </a>
+      </p>
+      <br/>
+    </td>
+    <td width="50%" valign="top" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 16px; background-color: #0d1117;">
+      <br/>
+      <img src="https://img.shields.io/badge/02_/_PRODUCTIVITY-FF5900?style=for-the-badge" alt="Top 2"/>
+      <br/><br/>
+      <h3>⚡ Productivity Dashboard</h3>
+      <p align="center" style="font-size: 14px; min-height: 48px;">Sleek and minimal personal productivity hub with Pomodoro timer, tasks &amp; scratchpad.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"/>
+      </p>
+      <hr size="1" color="#8B0000"/>
+      <p align="center">
+        <a href="https://github.com/geetansh-sirohi/Productivity-Dashboard">
+          <img src="https://img.shields.io/badge/Code-18181B?style=for-the-badge&logo=github" alt="Repository"/>
+        </a>
+        &nbsp;
+        <a href="https://productivity-dashboard-bay-delta.vercel.app/#">
+          <img src="https://img.shields.io/badge/Live_Site-8B0000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site"/>
+        </a>
+      </p>
+      <br/>
+    </td>
+  </tr>
+  
+  <!-- Row 2: FinTrack-Pro & DIGITAL-HUNTERS -->
+  <tr>
+    <td width="50%" valign="top" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 16px; background-color: #0d1117;">
+      <br/>
+      <img src="https://img.shields.io/badge/03_/_FINANCE-FF5900?style=for-the-badge" alt="Top 3"/>
+      <br/><br/>
+      <h3>💳 FinTrack-Pro</h3>
+      <p align="center" style="font-size: 14px; min-height: 48px;">Privacy-first personal finance dashboard featuring interactive charts &amp; CSV export.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"/>
+      </p>
+      <hr size="1" color="#8B0000"/>
+      <p align="center">
+        <a href="https://github.com/geetansh-sirohi/FinTrack-Pro">
+          <img src="https://img.shields.io/badge/Code-18181B?style=for-the-badge&logo=github" alt="Repository"/>
+        </a>
+        &nbsp;
+        <a href="https://fin-track-pro-liard.vercel.app">
+          <img src="https://img.shields.io/badge/Live_Site-8B0000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site"/>
+        </a>
+      </p>
+      <br/>
+    </td>
+    <td width="50%" valign="top" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 16px; background-color: #0d1117;">
+      <br/>
+      <img src="https://img.shields.io/badge/04_/_GAMING-FF5900?style=for-the-badge" alt="Project 4"/>
+      <br/><br/>
+      <h3>🎮 DIGITAL-HUNTERS</h3>
+      <p align="center" style="font-size: 14px; min-height: 48px;">Landing page for game development studio, showcasing XR/VR &amp; high-performance games.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"/>
+        <img src="https://img.shields.io/badge/XR-1E3A8A?style=flat-square" alt="XR"/>
+      </p>
+      <hr size="1" color="#8B0000"/>
+      <p align="center">
+        <a href="https://github.com/geetansh-sirohi/DIGITAL-HUNTERS">
+          <img src="https://img.shields.io/badge/Code-18181B?style=for-the-badge&logo=github" alt="Repository"/>
+        </a>
+        &nbsp;
+        <a href="https://digital-hunters-two.vercel.app">
+          <img src="https://img.shields.io/badge/Live_Site-8B0000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site"/>
+        </a>
+      </p>
+      <br/>
+    </td>
+  </tr>
+  
+  <!-- Row 3: Oliv-Building_Brands & loome-New-Collection -->
+  <tr>
+    <td width="50%" valign="top" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 16px; background-color: #0d1117;">
+      <br/>
+      <img src="https://img.shields.io/badge/05_/_BRANDING-FF5900?style=for-the-badge" alt="Project 5"/>
+      <br/><br/>
+      <h3>🍱 Oliv-Building_Brands</h3>
+      <p align="center" style="font-size: 14px; min-height: 48px;">Modern bento-grid branding website layout with advanced responsive layout engineering.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+        <img src="https://img.shields.io/badge/Bento--Grid-18181B?style=flat-square" alt="Bento-Grid"/>
+      </p>
+      <hr size="1" color="#8B0000"/>
+      <p align="center">
+        <a href="https://github.com/geetansh-sirohi/Oliv-Building_Brands">
+          <img src="https://img.shields.io/badge/Code-18181B?style=for-the-badge&logo=github" alt="Repository"/>
+        </a>
+        &nbsp;
+        <a href="https://oliv-build-brands.vercel.app">
+          <img src="https://img.shields.io/badge/Live_Site-8B0000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site"/>
+        </a>
+      </p>
+      <br/>
+    </td>
+    <td width="50%" valign="top" align="center" style="border: 1px solid #30363d; border-radius: 10px; padding: 16px; background-color: #0d1117;">
+      <br/>
+      <img src="https://img.shields.io/badge/06_/_FASHION-FF5900?style=for-the-badge" alt="Project 6"/>
+      <br/><br/>
+      <h3>👗 loome-New-Collection</h3>
+      <p align="center" style="font-size: 14px; min-height: 48px;">Minimal and elegant fashion landing page featuring modern UI &amp; product showcase.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+        <img src="https://img.shields.io/badge/UI_/_UX-1E3A8A?style=flat-square" alt="UIUX"/>
+      </p>
+      <hr size="1" color="#8B0000"/>
+      <p align="center">
+        <a href="https://github.com/geetansh-sirohi/loome-New-Collection">
+          <img src="https://img.shields.io/badge/Code-18181B?style=for-the-badge&logo=github" alt="Repository"/>
+        </a>
+        &nbsp;
+        <a href="https://loome-new-collection.vercel.app">
+          <img src="https://img.shields.io/badge/Live_Site-8B0000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site"/>
+        </a>
+      </p>
+      <br/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -103,6 +244,7 @@
     <img alt="GitHub Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=geetansh-sirohi&bg_color=0a0a0a&color=f4f4f5&line=ff5900&point=ffc107&area=true&area_color=8b0000&hide_border=true&custom_title=Contribution%20Graph" width="98%">
   </picture>
 </p>
+
 
 <br/>
 
