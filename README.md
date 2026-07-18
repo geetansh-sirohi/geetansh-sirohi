@@ -109,10 +109,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/geetansh-sirohi/geetansh-sirohi/output/github-contribution-grid-snake.svg?v=7" alt="GitHub Contribution Snake" width="98%"/>
-</p>
-
 <br/>
 
 <!-- Find Me On The Internet / Social Links -->
