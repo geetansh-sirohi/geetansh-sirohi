@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 220" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&amp;family=Caveat:wght@600;700&amp;display=swap');
+      .mono { font-family: 'Fira Code', ui-monospace, monospace; }
+      .hand { font-family: 'Caveat', 'Kalam', cursive, sans-serif; }
+      
+      @keyframes popCell {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @keyframes rankGlow {
+        0%, 100% { opacity: 0.75; }
+        50% { opacity: 1; }
+      }
+      @keyframes shineX2 {
+        0% { x: -200px; }
+        60%, 100% { x: 1200px; }
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .spin-emblem {
+        transform-origin: 16px 16px;
+        animation: spin 8s linear infinite;
+      }
+      @keyframes pulseOpacity {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+      .pulse-emblem {
+        animation: pulseOpacity 3s ease-in-out infinite;
+      }
+      .cell {
+        opacity: 0;
+        animation: popCell 0.55s cubic-bezier(0.2, 0.8, 0.3, 1.2) forwards;
+      }
+      .rk {
+        animation: rankGlow 2.2s ease-in-out infinite;
+      }
+      .sh2 {
+        transform: skewX(-15deg);
+        animation: shineX2 5s ease-in-out 2s infinite;
+      }
+      
+      @keyframes progress-0 {
+        from { stroke-dashoffset: 176; }
+        to { stroke-dashoffset: 97; }
+      }
+      .pr-0 {
+        stroke-dasharray: 176;
+        stroke-dashoffset: 176;
+        animation: progress-0 1.2s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+        animation-delay: 0.60s;
+      }
+
+      @keyframes progress-1 {
+        from { stroke-dashoffset: 176; }
+        to { stroke-dashoffset: 49; }
+      }
+      .pr-1 {
+        stroke-dasharray: 176;
+        stroke-dashoffset: 176;
+        animation: progress-1 1.2s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+        animation-delay: 0.78s;
+      }
+
+      @keyframes progress-2 {
+        from { stroke-dashoffset: 176; }
+        to { stroke-dashoffset: 176; }
+      }
+      .pr-2 {
+        stroke-dasharray: 176;
+        stroke-dashoffset: 176;
+        animation: progress-2 1.2s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+        animation-delay: 0.96s;
+      }
+
+      @keyframes progress-3 {
+        from { stroke-dashoffset: 176; }
+        to { stroke-dashoffset: 142; }
+      }
+      .pr-3 {
+        stroke-dasharray: 176;
+        stroke-dashoffset: 176;
+        animation: progress-3 1.2s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+        animation-delay: 1.14s;
+      }
+
+      @keyframes progress-4 {
+        from { stroke-dashoffset: 176; }
+        to { stroke-dashoffset: 176; }
+      }
+      .pr-4 {
+        stroke-dasharray: 176;
+        stroke-dashoffset: 176;
+        animation: progress-4 1.2s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+        animation-delay: 1.32s;
+      }
+
+      @keyframes progress-5 {
+        from { stroke-dashoffset: 176; }
+        to { stroke-dashoffset: 176; }
+      }
+      .pr-5 {
+        stroke-dasharray: 176;
+        stroke-dashoffset: 176;
+        animation: progress-5 1.2s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
+        animation-delay: 1.50s;
+      }
+    </style>
+    
+    <linearGradient id="shg2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tc">
+      <rect x="0" y="0" width="1120" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- Clean Canvas Background -->
+  <rect width="1120" height="220" rx="14" fill="#FDFBF7" stroke="#8B0000" stroke-width="2.5"/>
+
+  <!-- Window Header -->
+  <line x1="0" y1="36" x2="1120" y2="36" stroke="#8B0000" stroke-width="1.5"/>
+  <circle cx="20" cy="18" r="4.5" fill="#8B0000"/>
+  <circle cx="35" cy="18" r="4.5" fill="#FFD700"/>
+  <circle cx="50" cy="18" r="4.5" fill="#2D2D3A"/>
+
+  <!-- Header Title (Centered) -->
+  <text x="560" y="22" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#8B0000">geetansh@figma-canvas:~$ cat trophies.md</text>
+
+  <!-- Naruto Trophies Cards Grid -->
+    <!-- Cell 1: Committer -->
+  <g transform="translate(16, 52)">
+    <g class="cell" style="animation-delay:0.30s">
+      <!-- Card Frame -->
+      <rect x="0" y="0" width="168" height="152" rx="16" fill="#FFFFFF" stroke="#FDBA74" stroke-opacity=".85" stroke-width="1.5"/>
+      
+      <!-- Emblem Area Background Circle -->
+      <circle cx="84" cy="50" r="32" fill="#FFEDD5" opacity="0.4"/>
+      
+      <!-- Progress Ring -->
+      <circle cx="84" cy="50" r="28" fill="none" stroke="#FFEDD5" stroke-width="3" stroke-linecap="round"/>
+      <circle class="pr-0" cx="84" cy="50" r="28" fill="none" stroke="#EA580C" stroke-width="3" stroke-linecap="round" transform="rotate(-90 84 50)"/>
+      
+      <!-- Custom Vector Naruto Emblem -->
+      <g transform="translate(68, 34)">
+      <g class="spin-emblem">
+        <circle cx="16" cy="16" r="14" fill="none" stroke="#EA580C" stroke-width="1.2" stroke-opacity="0.35"/>
+        <circle cx="16" cy="16" r="14" fill="none" stroke="#EA580C" stroke-width="1.8" stroke-dasharray="16 6 4 6"/>
+        <path d="M 16 16 A 2.2 2.2 0 0 1 16 11.6 A 4.4 4.4 0 0 1 16 20.4 A 6.6 6.6 0 0 1 16 7.2 A 8.8 8.8 0 0 1 16 24.8 A 11 11 0 0 1 16 2.8" fill="none" stroke="#EA580C" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="16" cy="16" r="2.2" fill="#EA580C"/>
+      </g>
+    </g>
+      
+      <!-- Floating Rank Badge -->
+      <g transform="translate(62, 72)">
+        <rect x="0" y="0" width="44" height="18" rx="9" fill="#FFEDD5" stroke="#FED7AA" stroke-width="1"/>
+        <text class="rk mono" x="22" y="12.5" text-anchor="middle" font-size="10" font-weight="800" fill="#C2410C" style="animation-delay:0.70s">A</text>
+      </g>
+      
+      <!-- Title & Stats Details -->
+      <text x="84" y="114" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#18181B">Committer</text>
+      <text x="84" y="132" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#9A3412">Commits 92</text>
+    </g>
+  </g>
+  <!-- Cell 2: Creator -->
+  <g transform="translate(200, 52)">
+    <g class="cell" style="animation-delay:0.48s">
+      <!-- Card Frame -->
+      <rect x="0" y="0" width="168" height="152" rx="16" fill="#FFFFFF" stroke="#93C5FD" stroke-opacity=".85" stroke-width="1.5"/>
+      
+      <!-- Emblem Area Background Circle -->
+      <circle cx="84" cy="50" r="32" fill="#DBEAFE" opacity="0.4"/>
+      
+      <!-- Progress Ring -->
+      <circle cx="84" cy="50" r="28" fill="none" stroke="#DBEAFE" stroke-width="3" stroke-linecap="round"/>
+      <circle class="pr-1" cx="84" cy="50" r="28" fill="none" stroke="#2563EB" stroke-width="3" stroke-linecap="round" transform="rotate(-90 84 50)"/>
+      
+      <!-- Custom Vector Naruto Emblem -->
+      <g transform="translate(68, 34)">
+      <g class="spin-emblem">
+        <path d="M 16 2 L 19.5 12.5 L 30 16 L 19.5 19.5 L 16 30 L 12.5 19.5 L 2 16 L 12.5 12.5 Z" fill="#2563EB" stroke="#93C5FD" stroke-width="1"/>
+        <circle cx="16" cy="16" r="3.5" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1.2"/>
+        <path d="M 16 2 L 16 12.5 M 30 16 L 19.5 16 M 16 30 L 16 19.5 M 2 16 L 12.5 16" stroke="#93C5FD" stroke-width="0.8" stroke-opacity="0.4"/>
+      </g>
+    </g>
+      
+      <!-- Floating Rank Badge -->
+      <g transform="translate(62, 72)">
+        <rect x="0" y="0" width="44" height="18" rx="9" fill="#DBEAFE" stroke="#BFDBFE" stroke-width="1"/>
+        <text class="rk mono" x="22" y="12.5" text-anchor="middle" font-size="10" font-weight="800" fill="#1E40AF" style="animation-delay:0.88s">A</text>
+      </g>
+      
+      <!-- Title & Stats Details -->
+      <text x="84" y="114" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#18181B">Creator</text>
+      <text x="84" y="132" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#1E3A8A">Repos 11</text>
+    </g>
+  </g>
+  <!-- Cell 3: Stargazer -->
+  <g transform="translate(384, 52)">
+    <g class="cell" style="animation-delay:0.66s">
+      <!-- Card Frame -->
+      <rect x="0" y="0" width="168" height="152" rx="16" fill="#FFFFFF" stroke="#FDA4AF" stroke-opacity=".85" stroke-width="1.5"/>
+      
+      <!-- Emblem Area Background Circle -->
+      <circle cx="84" cy="50" r="32" fill="#FFE4E6" opacity="0.4"/>
+      
+      <!-- Progress Ring -->
+      <circle cx="84" cy="50" r="28" fill="none" stroke="#FFE4E6" stroke-width="3" stroke-linecap="round"/>
+      <circle class="pr-2" cx="84" cy="50" r="28" fill="none" stroke="#E11D48" stroke-width="3" stroke-linecap="round" transform="rotate(-90 84 50)"/>
+      
+      <!-- Custom Vector Naruto Emblem -->
+      <g transform="translate(68, 34)">
+      <circle cx="16" cy="16" r="14" fill="#E11D48" stroke="#FDA4AF" stroke-width="1.5"/>
+      <circle cx="16" cy="16" r="7" fill="none" stroke="#FDA4AF" stroke-opacity="0.35" stroke-width="1"/>
+      <circle cx="16" cy="16" r="2.5" fill="#FDA4AF"/>
+      <g>
+        <path d="M 16 6.5 A 1.8 1.8 0 1 1 14.2 8.3 C 14.2 7.0, 15.5 5.5, 17 5.5 C 16.5 6.2, 16.2 6.3, 16 6.5 Z" fill="#FDA4AF"/>
+      </g>
+      <g transform="rotate(120 16 16)">
+        <path d="M 16 6.5 A 1.8 1.8 0 1 1 14.2 8.3 C 14.2 7.0, 15.5 5.5, 17 5.5 C 16.5 6.2, 16.2 6.3, 16 6.5 Z" fill="#FDA4AF"/>
+      </g>
+      <g transform="rotate(240 16 16)">
+        <path d="M 16 6.5 A 1.8 1.8 0 1 1 14.2 8.3 C 14.2 7.0, 15.5 5.5, 17 5.5 C 16.5 6.2, 16.2 6.3, 16 6.5 Z" fill="#FDA4AF"/>
+      </g>
+    </g>
+      
+      <!-- Floating Rank Badge -->
+      <g transform="translate(62, 72)">
+        <rect x="0" y="0" width="44" height="18" rx="9" fill="#FFE4E6" stroke="#FECDD3" stroke-width="1"/>
+        <text class="rk mono" x="22" y="12.5" text-anchor="middle" font-size="10" font-weight="800" fill="#9F1239" style="animation-delay:1.06s">C</text>
+      </g>
+      
+      <!-- Title & Stats Details -->
+      <text x="84" y="114" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#18181B">Stargazer</text>
+      <text x="84" y="132" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#881337">Stars 0</text>
+    </g>
+  </g>
+  <!-- Cell 4: Rising Star -->
+  <g transform="translate(568, 52)">
+    <g class="cell" style="animation-delay:0.84s">
+      <!-- Card Frame -->
+      <rect x="0" y="0" width="168" height="152" rx="16" fill="#FFFFFF" stroke="#86EFAC" stroke-opacity=".85" stroke-width="1.5"/>
+      
+      <!-- Emblem Area Background Circle -->
+      <circle cx="84" cy="50" r="32" fill="#DCFCE7" opacity="0.4"/>
+      
+      <!-- Progress Ring -->
+      <circle cx="84" cy="50" r="28" fill="none" stroke="#DCFCE7" stroke-width="3" stroke-linecap="round"/>
+      <circle class="pr-3" cx="84" cy="50" r="28" fill="none" stroke="#16A34A" stroke-width="3" stroke-linecap="round" transform="rotate(-90 84 50)"/>
+      
+      <!-- Custom Vector Naruto Emblem -->
+      <g transform="translate(68, 34) scale(0.4444)">
+      <path d="M39.584 41.0606C39.6547 41.1842 39.7206 41.3128 39.7817 41.4465C39.832 41.5895 39.8765 41.7368 39.9151 41.8883C39.941 42.0474 39.96 42.2096 39.9723 42.3751C39.9702 42.5458 39.9606 42.7186 39.9435 42.8934C39.9108 43.0709 39.87 43.2492 39.8211 43.4281C39.7559 43.607 39.6823 43.7851 39.6003 43.9625C39.5016 44.1369 39.3945 44.309 39.279 44.479C39.147 44.6428 39.0068 44.803 38.8585 44.9593C38.6943 45.1066 38.5224 45.2487 38.3429 45.3855C38.1488 45.5103 37.9477 45.6284 37.7398 45.7398C37.519 45.8365 37.2923 45.9253 37.0597 46.006C36.8166 46.0695 36.5687 46.1239 36.3163 46.1692C36.0559 46.1952 35.7923 46.211 35.5255 46.2168C35.2539 46.2016 34.9806 46.1756 34.7058 46.1387C34.4296 46.0798 34.1536 46.0095 33.8777 45.928C33.604 45.8237 33.3323 45.708 33.0627 45.5808C32.799 45.4308 32.5392 45.2696 32.2833 45.097C32.0372 44.9022 31.797 44.6966 31.5625 44.4801C31.3415 44.2427 31.1282 43.9952 30.9226 43.7375C30.7341 43.4608 30.5549 43.175 30.3851 42.8803C30.2358 42.5688 30.0974 42.2497 29.9699 41.923C29.8659 41.5825 29.7741 41.2361 29.6947 40.8836C29.6412 40.521 29.6011 40.1542 29.5745 39.7833C29.5757 39.4062 29.5912 39.0269 29.621 38.6456C29.6799 38.2624 29.7537 37.8793 29.8422 37.4963C29.9606 37.116 30.094 36.7381 30.2423 36.3626C30.4205 35.9944 30.6133 35.6311 30.821 35.2726C31.0577 34.9261 31.3085 34.5867 31.5736 34.2546C31.8661 33.9391 32.1719 33.633 32.4909 33.3364C32.8351 33.0609 33.1913 32.7969 33.5593 32.5446C33.9496 32.3175 34.3502 32.1039 34.761 31.9038C35.1904 31.7327 35.628 31.5768 36.074 31.4362C36.5343 31.3277 37.0005 31.2358 37.4729 31.1605C37.9547 31.1199 38.4401 31.0969 38.929 31.0918C39.4223 31.1229 39.9165 31.1725 40.4114 31.2406C40.9053 31.3459 41.3972 31.47 41.8871 31.6129C42.3702 31.7932 42.8485 31.9921 43.3219 32.2096C43.7828 32.4638 44.236 32.736 44.6815 33.0263C45.1088 33.3517 45.5256 33.694 45.9319 34.0534C46.3145 34.4454 46.684 34.8529 47.0403 35.2759C47.3679 35.7283 47.6799 36.1942 47.9763 36.6739C48.2394 37.1787 48.4846 37.6948 48.7122 38.2224C48.9023 38.7703 49.0728 39.327 49.2238 39.8925C49.334 40.4727 49.4232 41.0589 49.4914 41.651C49.5164 42.2518 49.5194 42.8555 49.5003 43.4619C49.4364 44.0707 49.35 44.6789 49.241 45.2867C49.0865 45.8901 48.9095 46.4896 48.7098 47.0852C48.4652 47.6696 48.1983 48.2467 47.9093 48.8166C47.5767 49.3684 47.223 49.9096 46.848 50.4402C46.432 50.9461 45.9963 51.4382 45.5408 51.9165C45.0478 52.3639 44.537 52.7944 44.0084 53.208C43.4467 53.5851 42.8697 53.9426 42.2774 54.2805C41.6573 54.5767 41.0246 54.8509 40.3796 55.1032C39.7127 55.3095 39.0366 55.4919 38.3513 55.6504C37.651 55.7594 36.9449 55.8431 36.2332 55.9014C35.5137 55.9079 34.7922 55.8881 34.0688 55.8419C33.3453 55.7426 32.6237 55.6166 31.9041 55.4639C31.1923 55.2578 30.4864 55.0253 29.7864 54.7662C29.1021 54.4547 28.4277 54.1176 27.7632 53.7547C27.1222 53.3417 26.4949 52.9043 25.8812 52.4425C25.2987 51.934 24.7335 51.403 24.1855 50.8497C23.6757 50.254 23.1866 49.6384 22.7181 49.003C22.2941 48.3307 21.8937 47.6415 21.5171 46.9355C21.1904 46.1991 20.8899 45.4493 20.6157 44.6861C20.396 43.8999 20.2046 43.104 20.0415 42.2986C19.9364 41.4782 19.8611 40.6524 19.8155 39.8211C19.8303 38.9833 19.8758 38.1445 19.9518 37.3046C20.0893 36.4672 20.2576 35.6332 20.4566 34.8026C20.717 33.9836 21.0076 33.1725 21.3286 32.3694C21.7092 31.5869 22.119 30.8168 22.558 30.0592C23.0538 29.3309 23.5769 28.6195 24.1274 27.9248C24.7304 27.2678 25.3583 26.6316 26.0112 26.0163C26.7111 25.4465 27.4329 24.9012 28.1766 24.3804C28.9607 23.912 29.7631 23.4714 30.5838 23.0586C31.4373 22.7042 32.3049 22.3803 33.1869 22.0868C34.093 21.8566 35.0088 21.659 35.9345 21.494C36.875 21.3959 37.8206 21.3318 38.7711 21.3017C39.7267 21.3407 40.6824 21.4145 41.638 21.5231C42.5886 21.7016 43.5341 21.9148 44.4746 22.1629C45.3997 22.4801 46.3146 22.8314 47.2193 23.2167C48.0986 23.6689 48.9627 24.1537 49.8116 24.6711C50.6253 25.2517 51.419 25.8626 52.1927 26.5038L62.6965 16" stroke="#16A34A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M21.094 33.0483L10 56.1608L37.1187 55.8527" stroke="#16A34A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+      
+      <!-- Floating Rank Badge -->
+      <g transform="translate(62, 72)">
+        <rect x="0" y="0" width="44" height="18" rx="9" fill="#DCFCE7" stroke="#BBF7D0" stroke-width="1"/>
+        <text class="rk mono" x="22" y="12.5" text-anchor="middle" font-size="10" font-weight="800" fill="#166534" style="animation-delay:1.24s">B</text>
+      </g>
+      
+      <!-- Title & Stats Details -->
+      <text x="84" y="114" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#18181B">Rising Star</text>
+      <text x="84" y="132" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#14532D">Followers 2</text>
+    </g>
+  </g>
+  <!-- Cell 5: PR Champion -->
+  <g transform="translate(752, 52)">
+    <g class="cell" style="animation-delay:1.02s">
+      <!-- Card Frame -->
+      <rect x="0" y="0" width="168" height="152" rx="16" fill="#FFFFFF" stroke="#FCA5A5" stroke-opacity=".85" stroke-width="1.5"/>
+      
+      <!-- Emblem Area Background Circle -->
+      <circle cx="84" cy="50" r="32" fill="#FFE4E6" opacity="0.4"/>
+      
+      <!-- Progress Ring -->
+      <circle cx="84" cy="50" r="28" fill="none" stroke="#FFE4E6" stroke-width="3" stroke-linecap="round"/>
+      <circle class="pr-4" cx="84" cy="50" r="28" fill="none" stroke="#DC2626" stroke-width="3" stroke-linecap="round" transform="rotate(-90 84 50)"/>
+      
+      <!-- Custom Vector Naruto Emblem -->
+      <g transform="translate(68, 34)">
+      <g class="pulse-emblem">
+        <path d="M 16 31 C 24 31, 28 26, 28 19 C 28 12, 21 8, 18 1 C 17 5, 14 7, 12 10 C 7 14, 4 19, 4 24 C 4 29, 8 31, 16 31 Z" fill="#DC2626" opacity="0.25"/>
+        <path d="M 16 30 C 22.5 30, 26 25, 26 19 C 26 13, 20.5 9.5, 18 3 C 17 6, 15 8, 13 11 C 9 14.5, 6 18.5, 6 23.5 C 6 28, 9.5 30, 16 30 Z" fill="#DC2626" stroke="#FCA5A5" stroke-width="0.8"/>
+        <path d="M 16 29 C 20.5 29, 23 25, 23 20 C 23 15, 18.5 12, 17 7 C 16.5 9, 15 10.5, 13.5 12.5 C 10.5 15.5, 8.5 18.5, 8.5 22.5 C 8.5 26.5, 11 29, 16 29 Z" fill="#FFE4E6" stroke="#FCA5A5" stroke-width="0.6" stroke-opacity="0.8" opacity="0.85"/>
+        <path d="M 16 27 C 18 27, 19.5 25, 19.5 21.5 C 19.5 18, 17.5 16, 16.5 12.5 C 16 14, 15 15, 14 16.5 C 12 19, 11 20.5, 11 23 C 11 25.5, 12.5 27, 16 27 Z" fill="#DC2626" opacity="0.9"/>
+      </g>
+    </g>
+      
+      <!-- Floating Rank Badge -->
+      <g transform="translate(62, 72)">
+        <rect x="0" y="0" width="44" height="18" rx="9" fill="#FFE4E6" stroke="#FECDD3" stroke-width="1"/>
+        <text class="rk mono" x="22" y="12.5" text-anchor="middle" font-size="10" font-weight="800" fill="#991B1B" style="animation-delay:1.42s">C</text>
+      </g>
+      
+      <!-- Title & Stats Details -->
+      <text x="84" y="114" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#18181B">PR Champion</text>
+      <text x="84" y="132" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#7F1D1D">PRs 0</text>
+    </g>
+  </g>
+  <!-- Cell 6: Bug Hunter -->
+  <g transform="translate(936, 52)">
+    <g class="cell" style="animation-delay:1.20s">
+      <!-- Card Frame -->
+      <rect x="0" y="0" width="168" height="152" rx="16" fill="#FFFFFF" stroke="#FDE047" stroke-opacity=".85" stroke-width="1.5"/>
+      
+      <!-- Emblem Area Background Circle -->
+      <circle cx="84" cy="50" r="32" fill="#FEF9C3" opacity="0.4"/>
+      
+      <!-- Progress Ring -->
+      <circle cx="84" cy="50" r="28" fill="none" stroke="#FEF9C3" stroke-width="3" stroke-linecap="round"/>
+      <circle class="pr-5" cx="84" cy="50" r="28" fill="none" stroke="#CA8A04" stroke-width="3" stroke-linecap="round" transform="rotate(-90 84 50)"/>
+      
+      <!-- Custom Vector Naruto Emblem -->
+      <g transform="translate(68, 34)">
+      <rect x="5" y="14" width="4" height="4" rx="1" fill="#D97706" stroke="#FDE047" stroke-width="1"/>
+      <rect x="23" y="14" width="4" height="4" rx="1" fill="#D97706" stroke="#FDE047" stroke-width="1"/>
+      <rect x="7" y="11" width="18" height="10" rx="2" fill="#FEF9C3" stroke="#FDE047" stroke-width="1.2"/>
+      <rect x="7" y="10" width="3" height="12" rx="1" fill="#CA8A04" stroke="#FDE047" stroke-width="1"/>
+      <rect x="22" y="10" width="3" height="12" rx="1" fill="#CA8A04" stroke="#FDE047" stroke-width="1"/>
+      <rect x="14.5" y="10.5" width="3" height="11" fill="#CA8A04"/>
+      <path d="M 16 21 L 14 26 L 18 26 Z" fill="#CA8A04" stroke="#FDE047" stroke-width="0.8"/>
+    </g>
+      
+      <!-- Floating Rank Badge -->
+      <g transform="translate(62, 72)">
+        <rect x="0" y="0" width="44" height="18" rx="9" fill="#FEF9C3" stroke="#FEF08A" stroke-width="1"/>
+        <text class="rk mono" x="22" y="12.5" text-anchor="middle" font-size="10" font-weight="800" fill="#854D0E" style="animation-delay:1.60s">C</text>
+      </g>
+      
+      <!-- Title & Stats Details -->
+      <text x="84" y="114" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#18181B">Bug Hunter</text>
+      <text x="84" y="132" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#713F12">Issues 0</text>
+    </g>
+  </g>
+
+  <!-- Shine overlay across the whole strip -->
+  <g clip-path="url(#tc)">
+    <rect class="sh2" x="0" y="0" width="140" height="220" fill="url(#shg2)"/>
+  </g>
+</svg>
