@@ -43,7 +43,6 @@
 | ⚡ **[Productivity Dashboard](https://github.com/geetansh-sirohi/Productivity-Dashboard)** | Sleek and minimal personal productivity hub with Pomodoro | `HTML5` `CSS3` `JavaScript` | [Live Demo ↗](https://productivity-dashboard-bay-delta.vercel.app/#)|
 | 💳 **[FinTrack-Pro](https://github.com/geetansh-sirohi/FinTrack-Pro)** | Privacy-first personal finance tracker with interactive charts | `HTML5` `CSS3` `JavaScript` | [Live Demo ↗](https://fin-track-pro-liard.vercel.app) |
 | ⚖️ **[Advocate Legal Advisor](https://advocate-legal-advisor.vercel.app/)** | Professional advocate portfolio &amp; legal advisor portal | `React` `Tailwind CSS` `Vite` | [Live Demo ↗](https://advocate-legal-advisor.vercel.app/) |
-| 🏫 **[Vatsalya Academy](https://vatsalya-academy.vercel.app)** | Pre-school &amp; primary educational academy portal | `React` `Tailwind CSS` `Vite` | [Live Demo ↗](https://vatsalya-academy.vercel.app) |
 | 🧘 **[Buddha Spa Raipur](https://buddha-spa.vercel.app)** | Serene wellness and massage therapy sanctuary portal | `Next.js` `React` `Tailwind CSS` | [Live Demo ↗](https://buddha-spa.vercel.app) |
 
 <br/>
