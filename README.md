@@ -13,24 +13,20 @@
 <table>
   <tr>
     <td align="center" width="45%" stroke="none">
-      <img src="./lanyard.svg?v=9" alt="Geetansh Sirohi Interactive Lanyard Badge" width="380"/>
+      <img src="./lanyard.svg?v=10" alt="Geetansh Sirohi Interactive Lanyard Badge" width="380"/>
     </td>
     <td align="left" width="55%" style="vertical-align: top; padding-left: 20px;">
-      <h3 align="left"><code>[ quick_facts.json ]</code> ✦</h3>
-      <ul>
-        <li><b>👤 Name:</b> Geetansh Sirohi</li>
-        <li><b>💼 Role:</b> Systems Architect &amp; Frontend Engineer</li>
-        <li><b>📍 Base:</b> Rustampur, Uttar Pradesh, India</li>
-        <li><b>🎯 Focus:</b> High-Performance Web Systems, XR/VR &amp; 3D Graphics</li>
-        <li><b>🚀 Core Stack:</b> React 19, Next.js 16, TypeScript, Tailwind CSS v4, Three.js, Cloudflare Workers</li>
-        <li><b>💬 Bio:</b> <i>"Coding is the ability to think — code is my canvas, the web is my playground."</i></li>
-      </ul>
-      <br/>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./quick-facts-dark.svg?v=10">
+        <source media="(prefers-color-scheme: light)" srcset="./quick-facts-light.svg?v=10">
+        <img alt="Geetansh Sirohi - Quick Facts" src="./quick-facts.svg?v=10" width="100%">
+      </picture>
+      <br/><br/>
       <p align="left">
-        <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-geetanshsirohi.vercel.app-8B0000?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-        <a href="https://pibrains.com"><img src="https://img.shields.io/badge/Platform-pibrains.com-FF5900?style=flat-square&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
-        <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GitHub-geetansh--sirohi-FFC107?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-        <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-1E3A8A?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+        <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-8B0000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+        <a href="https://pibrains.com"><img src="https://img.shields.io/badge/Platform-FF5900?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
+        <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GitHub-FFC107?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+        <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/Email-1E3A8A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
       </p>
     </td>
   </tr>
@@ -114,12 +110,12 @@
 <h2 align="center"><code>[find me on the internet:]</code> ✷</h2>
 
 <p align="center">
-  <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-geetanshsirohi.vercel.app-8B0000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://pibrains.com"><img src="https://img.shields.io/badge/Platform-pibrains.com-FF5900?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
-  <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GitHub-geetansh--sirohi-FFC107?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://linkedin.com/in/geetansh-sirohi"><img src="https://img.shields.io/badge/LinkedIn-geetansh--sirohi-1E3A8A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://instagram.com/blur_skull"><img src="https://img.shields.io/badge/Instagram-@blur__skull-8B0000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/Email-mr.geetansh.sirohi@gmail.com-FFC107?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-8B0000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://pibrains.com"><img src="https://img.shields.io/badge/Platform-FF5900?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
+  <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GitHub-FFC107?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://linkedin.com/in/geetansh-sirohi"><img src="https://img.shields.io/badge/LinkedIn-1E3A8A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://instagram.com/blur_skull"><img src="https://img.shields.io/badge/Instagram-8B0000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/Email-FFC107?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 <br/>
