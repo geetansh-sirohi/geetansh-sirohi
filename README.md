@@ -1,6 +1,5 @@
 <div align="center">
 
-
 <!-- Animated Doodle Notebook Banner with Light & Dark Theme Auto-Switch -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg?v=9">
