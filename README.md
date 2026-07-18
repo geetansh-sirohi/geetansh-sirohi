@@ -1,5 +1,6 @@
 <div align="center">
 
+
 <!-- Animated Doodle Notebook Banner with Light & Dark Theme Auto-Switch -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg?v=9">
@@ -37,14 +38,14 @@
 <!-- Selected Work Table with Actual Repositories -->
 <h2 align="center"><code>[selected work &amp; repositories:]</code> ✷</h2>
 
-| 🚀 Project / Repository | 💻 Tech Stack | 🔗 Links |
-| :--- | :--- | :---: |
-| 🧠 **[Pi Brains Platform](https://pibrains.com)**<br/><sub>Enterprise Systems &amp; AI Architecture Platform. Built for scale.</sub> | `Next.js 16` `TypeScript` `Cloudflare` | [pibrains.com](https://pibrains.com) |
-| ⚡ **[Productivity Dashboard](https://productivity-dashboard-bay-delta.vercel.app/#)**<br/><sub>Sleek and minimal personal productivity hub with Pomodoro timer &amp; tasks.</sub> | `HTML5` `CSS3` `JavaScript` | [Live Site](https://productivity-dashboard-bay-delta.vercel.app/#) \| [Source Code](https://github.com/geetansh-sirohi/Productivity-Dashboard) |
-| 💳 **[FinTrack-Pro](https://fin-track-pro-liard.vercel.app)**<br/><sub>Privacy-first personal finance tracker with interactive charts &amp; CSV export.</sub> | `HTML5` `CSS3` `JavaScript` | [Live Site](https://fin-track-pro-liard.vercel.app) \| [Source Code](https://github.com/geetansh-sirohi/FinTrack-Pro) |
-| ⚖️ **[Advocate Legal Advisor](https://advocate-legal-advisor.vercel.app/)**<br/><sub>Professional advocate portfolio &amp; legal consultation platform near Varanasi.</sub> | `React` `Tailwind CSS` `Vite` | [Live Site](https://advocate-legal-advisor.vercel.app/) |
-| 🏫 **[Vatsalya Academy](https://vatsalya-academy.vercel.app)**<br/><sub>Holistic pre-school &amp; primary academy portal located in Varanasi.</sub> | `React` `Tailwind CSS` `Vite` | [Live Site](https://vatsalya-academy.vercel.app) |
-| 🧘 **[Buddha Spa Raipur](https://buddha-spa.vercel.app)**<br/><sub>Raipur's premier wellness and massage therapy sanctuary portal opposite Marine Drive.</sub> | `Next.js` `React` `Tailwind CSS` | [Live Site](https://buddha-spa.vercel.app) |
+| 🚀 Project | 📝 Description | 💻 Tech Stack | 🔗 Links |
+| :--- | :--- | :--- | :--- |
+| 🧠 **[Pi Brains Platform](https://pibrains.com)** | Enterprise Systems &amp; AI Architecture Platform | `Next.js 16` `TypeScript` `Cloudflare` | [pibrains.com ↗](https://pibrains.com) |
+| ⚡ **[Productivity Dashboard](https://productivity-dashboard-bay-delta.vercel.app/#)** | Sleek and minimal personal productivity hub with Pomodoro | `HTML5` `CSS3` `JavaScript` | [Live Demo ↗](https://productivity-dashboard-bay-delta.vercel.app/#) • [View Code ↗](https://github.com/geetansh-sirohi/Productivity-Dashboard) |
+| 💳 **[FinTrack-Pro](https://fin-track-pro-liard.vercel.app)** | Privacy-first personal finance tracker with interactive charts | `HTML5` `CSS3` `JavaScript` | [Live Demo ↗](https://fin-track-pro-liard.vercel.app) • [View Code ↗](https://github.com/geetansh-sirohi/FinTrack-Pro) |
+| ⚖️ **[Advocate Legal Advisor](https://advocate-legal-advisor.vercel.app/)** | Professional advocate portfolio &amp; legal advisor portal | `React` `Tailwind CSS` `Vite` | [Live Demo ↗](https://advocate-legal-advisor.vercel.app/) |
+| 🏫 **[Vatsalya Academy](https://vatsalya-academy.vercel.app)** | Pre-school &amp; primary educational academy portal | `React` `Tailwind CSS` `Vite` | [Live Demo ↗](https://vatsalya-academy.vercel.app) |
+| 🧘 **[Buddha Spa Raipur](https://buddha-spa.vercel.app)** | Serene wellness and massage therapy sanctuary portal | `Next.js` `React` `Tailwind CSS` | [Live Demo ↗](https://buddha-spa.vercel.app) |
 
 <br/>
 <p align="left">
@@ -108,7 +109,6 @@
     <img alt="GitHub Contribution Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=geetansh-sirohi&bg_color=0a0a0a&color=f4f4f5&line=ff5900&point=ffc107&area=true&area_color=8b0000&hide_border=true&custom_title=Contribution%20Graph" width="98%">
   </picture>
 </p>
-
 
 <br/>
 
