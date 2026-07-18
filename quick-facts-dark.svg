@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 440" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&amp;family=Outfit:wght@500;600;800&amp;display=swap');
+      .mono { font-family: 'Fira Code', ui-monospace, monospace; }
+      .sans { font-family: 'Outfit', sans-serif; }
+      
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor {
+        fill: #FF5900;
+        animation: blink 1s step-end infinite;
+      }
+    </style>
+    <pattern id="vercelGridDark" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#27272A" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Dark Vercel Background -->
+  <rect width="540" height="440" rx="16" fill="#0A0A0A" stroke="#27272A" stroke-width="2.5"/>
+  <rect width="540" height="440" rx="16" fill="url(#vercelGridDark)" opacity="0.08"/>
+
+  <!-- Inner Stroke Accent -->
+  <rect x="3" y="3" width="534" height="434" rx="13" fill="none" stroke="#1F1F23" stroke-width="1.5"/>
+
+  <!-- Window Header Bar -->
+  <rect x="0" y="0" width="540" height="38" rx="16" fill="#18181B" stroke="#27272A" stroke-width="2.5"/>
+  <rect x="0" y="20" width="540" height="18" fill="#18181B"/>
+  <line x1="0" y1="38" x2="540" y2="38" stroke="#27272A" stroke-width="1.5"/>
+  
+  <!-- Mac Window Buttons -->
+  <circle cx="20" cy="19" r="5" fill="#FF5F56" stroke="#E0443E" stroke-width="0.5"/>
+  <circle cx="36" cy="19" r="5" fill="#FFBD2E" stroke="#DEA123" stroke-width="0.5"/>
+  <circle cx="52" cy="19" r="5" fill="#27C93F" stroke="#1AAB2F" stroke-width="0.5"/>
+
+  <!-- Editor Tabs -->
+  <g transform="translate(85, 8)">
+    <!-- Active Tab -->
+    <path d="M 0 30 L 10 5 A 4 4 0 0 1 14 2 L 140 2 A 4 4 0 0 1 144 5 L 154 30 Z" fill="#0A0A0A" stroke="#27272A" stroke-width="1.5"/>
+    <rect x="1" y="28" width="152" height="4" fill="#0A0A0A"/>
+    <!-- Orange active line at the top -->
+    <path d="M 14 2 L 140 2" stroke="#FF5900" stroke-width="2"/>
+    <text x="77" y="19" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#F4F4F5">quick_facts.json</text>
+    <circle cx="134" cy="15" r="4.5" fill="#FF5900" opacity="0.8"/>
+    <text x="134" y="18" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#FFFFFF">x</text>
+  </g>
+
+  <g transform="translate(245, 8)">
+    <!-- Inactive Tab -->
+    <path d="M 0 30 L 10 5 A 4 4 0 0 1 14 2 L 110 2 A 4 4 0 0 1 114 5 L 124 30 Z" fill="#141416" stroke="#27272A" stroke-width="1.5"/>
+    <text x="62" y="19" text-anchor="middle" class="sans" font-size="11" font-weight="500" fill="#71717A">README.md</text>
+  </g>
+
+  <!-- Breadcrumbs / File Path Bar -->
+  <g transform="translate(0, 38)">
+    <rect x="0" y="0" width="540" height="24" fill="#141416" stroke="#27272A" stroke-width="1.5"/>
+    <text x="20" y="16" class="sans" font-size="10.5" font-weight="500" fill="#71717A">src <tspan fill="#3F3F46">»</tspan> config <tspan fill="#3F3F46">»</tspan> quick_facts.json</text>
+  </g>
+
+  <!-- Code Area -->
+  <g transform="translate(0, 62)">
+    <!-- Line Numbers Background -->
+    <rect x="1" y="1" width="45" height="375" fill="#141416" opacity="0.3"/>
+    <line x1="45" y1="0" x2="45" y2="376" stroke="#18181B" stroke-width="1.5"/>
+
+    <!-- Line Numbers -->
+    <g class="mono" font-size="12" fill="#52525B" text-anchor="end">
+      <text x="32" y="30">01</text>
+      <text x="32" y="52">02</text>
+      <text x="32" y="74">03</text>
+      <text x="32" y="96">04</text>
+      <text x="32" y="118">05</text>
+      <text x="32" y="140">06</text>
+      <text x="32" y="162">07</text>
+      <text x="32" y="184">08</text>
+      <text x="32" y="206">09</text>
+      <text x="32" y="228">10</text>
+      <text x="32" y="250">11</text>
+      <text x="32" y="272">12</text>
+      <text x="32" y="294">13</text>
+      <text x="32" y="316">14</text>
+    </g>
+
+    <!-- Syntax Highlighted JSON Code -->
+    <g class="mono" font-size="12.5" font-weight="600" fill="#F4F4F5" xml:space="preserve">
+      <style>
+        .punc-d { fill: #F4F4F5; }
+        .key-d { fill: #FF5900; }
+        .val-d { fill: #60A5FA; }
+        .spec-d { fill: #FFD700; }
+        .bio-d { fill: #34D399; font-style: italic; }
+      </style>
+
+      <text x="55" y="30" class="punc-d">{</text>
+      
+      <text x="70" y="52"><tspan class="key-d">"name"</tspan><tspan class="punc-d">:</tspan> <tspan class="val-d">"Geetansh Sirohi"</tspan><tspan class="punc-d">,</tspan></text>
+      
+      <text x="70" y="74"><tspan class="key-d">"role"</tspan><tspan class="punc-d">:</tspan> <tspan class="val-d">"Systems Architect &amp; Frontend Engineer"</tspan><tspan class="punc-d">,</tspan></text>
+      
+      <text x="70" y="96"><tspan class="key-d">"base"</tspan><tspan class="punc-d">:</tspan> <tspan class="val-d">"Rustampur, Uttar Pradesh, India"</tspan><tspan class="punc-d">,</tspan></text>
+      
+      <text x="70" y="118"><tspan class="key-d">"focus"</tspan><tspan class="punc-d">:</tspan> <tspan class="punc-d">[</tspan></text>
+      <text x="90" y="140"><tspan class="val-d">"High-Performance Web Systems"</tspan><tspan class="punc-d">,</tspan></text>
+      <text x="90" y="162"><tspan class="val-d">"XR/VR &amp; 3D Graphics"</tspan></text>
+      <text x="70" y="184"><tspan class="punc-d">],</tspan></text>
+      
+      <text x="70" y="206"><tspan class="key-d">"stack"</tspan><tspan class="punc-d">:</tspan> <tspan class="punc-d">[</tspan></text>
+      <text x="90" y="228"><tspan class="val-d">"React 19"</tspan><tspan class="punc-d">,</tspan> <tspan class="val-d">"Next.js 16"</tspan><tspan class="punc-d">,</tspan> <tspan class="val-d">"TypeScript"</tspan><tspan class="punc-d">,</tspan></text>
+      <text x="90" y="250"><tspan class="val-d">"Tailwind CSS v4"</tspan><tspan class="punc-d">,</tspan> <tspan class="val-d">"Three.js"</tspan><tspan class="punc-d">,</tspan> <tspan class="val-d">"Cloudflare Workers"</tspan></text>
+      <text x="70" y="272"><tspan class="punc-d">],</tspan></text>
+      
+      <text x="70" y="294"><tspan class="key-d">"bio"</tspan><tspan class="punc-d">:</tspan> <tspan class="bio-d">"code is my canvas, the web is my playground"</tspan><tspan class="cursor">█</tspan></text>
+      
+      <text x="55" y="316" class="punc-d">}</text>
+    </g>
+  </g>
+</svg>
