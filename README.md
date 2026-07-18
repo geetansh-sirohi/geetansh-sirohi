@@ -119,12 +119,12 @@
 <h2 align="center"><code>[find me on the internet:]</code> ✷</h2>
 
 <p align="center">
-  <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/Portfolio-geetanshsirohi.vercel.app-8B0000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://pibrains.com"><img src="https://img.shields.io/badge/Platform-pibrains.com-FF5900?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
-  <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GitHub-geetansh--sirohi-FFC107?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://linkedin.com/in/geetansh-sirohi"><img src="https://img.shields.io/badge/LinkedIn-geetansh--sirohi-1E3A8A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://instagram.com/blur_skull"><img src="https://img.shields.io/badge/Instagram-@blur__skull-8B0000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/Email-mr.geetansh.sirohi@gmail.com-FFC107?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://geetanshsirohi.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-18181B?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://pibrains.com"><img src="https://img.shields.io/badge/PLATFORM-FF5900?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Pi Brains"/></a>
+  <a href="https://github.com/geetansh-sirohi"><img src="https://img.shields.io/badge/GITHUB-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://linkedin.com/in/geetansh-sirohi"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://instagram.com/blur_skull"><img src="https://img.shields.io/badge/INSTAGRAM-E066FF?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="mailto:mr.geetansh.sirohi@gmail.com"><img src="https://img.shields.io/badge/EMAIL-FF6EA7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 <br/>
